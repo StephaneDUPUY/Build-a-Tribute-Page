@@ -1,5 +1,4 @@
 # Build-a-Tribute-Page
 FreeCodeCamp - Build a Tribute Page
 
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+<img src = "https://www.google.fr/images/srpr/logo11w.png" title = "google logo" alt = "Google logo">
