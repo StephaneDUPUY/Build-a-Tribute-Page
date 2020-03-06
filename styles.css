@@ -1,12 +1,41 @@
-body {
-    background-color: black;
+main {
+
+  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png);
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
   }
 
-header {
-    background: #5d7fb9;
-    text-align: center;
-    padding: 1em;
-  }
+/*body {
+  background:transparent url(images/twinkling.png) repeat top center;
+  z-index:1;
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+  
+}
+*/
+
+@keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 10000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 10000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 10000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 10000px;}
+}
 
 #nasa {
     display: block;
@@ -26,10 +55,6 @@ figcaption {
   margin-left: auto;
   margin-right: auto;
   max-width: 54%;
-}
-
-#tribute-info {
-  background: #5d7fb9;
 }
 
 h2,
